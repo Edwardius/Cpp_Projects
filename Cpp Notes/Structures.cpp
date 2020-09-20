@@ -15,6 +15,8 @@ struct Person {
 void displayData(Person);
 Person getData(Person);
 
+enum week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; //enumerations is a user defined data type, its mainly used to assign names to integral constants for sake of neatness
+
 int main()
 {
     /*Person p1;
@@ -28,9 +30,25 @@ int main()
     p1.salary = 42000;
     cout << p1.age << p1.salary;*/
 
+    enum week day; //day can equal any of the 7 days of the week as stated in the enum
+    day = Monday;
+    cout << day; //both output the exact same value
+    cout << Monday;
+
     Person p2{}; //the structure must be initialized first before it runs through various functions
     p2 = getData(p2);
     displayData(p2);
+
+    //pointers can also be created for structures
+    Person *pointer, p3;
+    pointer = &p3;
+    cout << "What is the person's name?\n";
+    cin.get((*pointer).name, 50);
+    cout << "How old is this person?\n";
+    cin >> (*pointer).age;
+    cout << "How much does this person make annually?\n";
+    cin >> (*pointer).salary;
+
     return 0;
 }
 
