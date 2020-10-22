@@ -1,0 +1,13 @@
+Resistor #     Order Amount
+       100              280
+       200              310
+       300              275
+       400              275
+       500              277
+       600              275
+       700              280
+       800              275
+       900              293
+      1000              310
+The highest resistor count is 310
+in colour value(s): 200, 1000.

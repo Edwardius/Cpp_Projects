@@ -1,0 +1,3 @@
+﻿  Expenses.cpp
+D:\Documents\C++ Solutions\Expenses\Assignment 4\Expenses.cpp(36,30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Assignment 4.vcxproj -> D:\Documents\C++ Solutions\Expenses\Debug\Expenses.exe
