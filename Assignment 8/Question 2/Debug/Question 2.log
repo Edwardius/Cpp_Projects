@@ -1,0 +1,3 @@
+﻿  leap_year.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Documents\C++ Solutions\Assignment 8\Debug\Question 2.exe : fatal error LNK1120: 1 unresolved externals
